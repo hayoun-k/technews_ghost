@@ -1,0 +1,110 @@
+# Ghost CMS .gitignore
+
+# Ghost data directory (contains database and uploaded content)
+/content/data/
+/content/images/
+/content/media/
+/content/files/
+/content/apps/
+
+# Ghost logs
+*.log
+logs/
+ghost/logs/
+
+# Ghost configuration files with sensitive data
+config.*.json
+config.development.json
+config.production.json
+
+# Keep example config but ignore actual configs
+!config.example.json
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ghost CLI
+.ghost-cli
+
+# Temporary folders
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Ghost version lock file
+.ghost-version
+
+# SSL certificates (if stored locally)
+*.pem
+*.key
+*.cert
+*.crt
+
+# Custom themes (uncomment if you want to ignore them)
+# content/themes/custom-theme/
+
+# Database dumps
+*.sql
+*.db
+*.sqlite
+*.sqlite3
