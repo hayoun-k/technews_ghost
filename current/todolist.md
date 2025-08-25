@@ -1,0 +1,13 @@
+- [x]*Map our categories to the top level nav
+- [ ]*Implement any look and feel that you think improves the site flow (colors / fonts / etc) and readability
+- [ ]*Create top of page banners / highlight block for each of the collection sections (these would be nicely styled and feel very clean, as they are omni-present for each section)
+- [ ]*Create sub-pages for "TechNews" (About), Contact Us (a form field), and put our social handles at the bottom of the page in such a way that looks nice and clean
+- [ ]*Model our page as much after TechCrunch as possible in terms of general readability and orderliness (https://techcrunch.com/)
+- [ ]*Implement a newsletter signup form somewhere that makes sense
+- [ ]*Make recommendations for look and feel and how we get best continuity between the aggregator and the Ghost blog
+- [ ]*Make recommendations for font and colors on site in the interest of readability and generally professional aesthetic
+- [ ]*Make recommendation for where the demo page that was just created gets linked-to (probably should be "learn" or "try" or something like that, next to "sign in" button)
+- [ ]*Make recommendation for where (and look and feel) we implement a daily newsletter sign up
+- [ ]*Help us design some banners (and where we can place them) that drop the user into the demo page
+- [ ]*Make recommendation for how we would implement "about" and "contact" pages at bottom of aggregator, in similar fashion to how we implement it on our blog
+- [ ]*All sections on the aggregator are the same EXCEPT for “home” - where we would like to emphasize “top stories” in each of the collections while also advertising to the user the jump to the categories themselves
